@@ -73,7 +73,6 @@ class RawHtmlPostprocessor(Postprocessor):
 
     def escape(self, html):
         """ Basic html escaping """
-        html = html.replace('&', '&amp;')
         html = html.replace('<', '&lt;')
         html = html.replace('>', '&gt;')
         return html.replace('"', '&quot;')
