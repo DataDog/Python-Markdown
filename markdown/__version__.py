@@ -7,7 +7,7 @@
 # (1, 2, 0, 'beta', 2) => "1.2b2"
 # (2, 6, 1, 'final', 0) => "2.6.1"
 # (2, 6, 1, 'final', 0, 'dd.1') => "2.6.1+dd.1"
-version_info = (2, 6, 1, 'final', 0, '')
+version_info = (2, 6, 1, 'final', 0, 'dd.1')
 
 
 def _get_version():
